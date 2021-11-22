@@ -1,0 +1,44 @@
+body {
+  margin-top: 105px;
+  font-family: 'Varela Round', sans-serif; }
+
+.navbar {
+  box-shadow: 5px 5px 5px #0c0c0c;
+  opacity: 0.9;
+  
+  background: rgb(196, 0, 0); }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+
+ .display-4 {
+   color: #0c0c0c;
+ }
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px rgb(24, 23, 23) solid; }
+
+#authors img {
+  margin-top: -50px; }
+#authors .card:hover {
+  background: rgb(196, 0, 0);
+  color: #fff; }
+#authors .fab {
+  color: #fff; }
+
+@media (max-width: 768px) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; } }
+    .bg.scrolled {background: #0c0c0c; color: rgb(38, 117, 1);
+    }
+    .bg {transition: 0.6s ease;
+      background: rgb(38, 117, 1);
+      
+    }
